@@ -80,7 +80,7 @@ A comprehensive comparison of top commercial AI camera filter apps, categorized 
 
 ## 💻 Open-Source Camera & Filter Projects
 
-Curated open-source camera apps, computational photography frameworks, and mobile image processing toolkits sorted by GitHub Stars_Count (descending).
+Curated open-source camera apps, computational photography frameworks, and mobile image processing toolkits sorted by GitHub_Stars_Count (descending).
 
 - **[GPUImage (iOS)](https://github.com/BradLarson/GPUImage)** [![GitHub_Stars](https://img.shields.io/github/stars/BradLarson/GPUImage?style=social&color=white)](https://github.com/BradLarson/GPUImage/stargazers)  
   🌟 **The benchmark GPU-accelerated camera framework.** An open-source iOS framework for GPU-based image and live video processing using OpenGL ES shaders, providing real-time camera filter pipelines, custom shaders, and color adjustments with maximum throughput.
