@@ -2,144 +2,99 @@
 
 ## Top AI Mobile Camera & Filter App Ecosystem
 
-
-
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
-
 *Focused on On-Device AI Filters, Computational Photography & Self-Hosted Camera Pipelines*  
 
 **Last updated: October 2026**
 
-
-
 This repository tracks notable **SaaS platforms** and **open-source projects** for **AI Mobile Camera & Filter Apps**. These tools apply machine learning to smartphone photography—recognizing scenes, enhancing portraits, applying artistic styles, and simulating film looks—ranging from consumer apps with subscription tiers to open-source camera applications that keep processing entirely on-device.
 
+**Examples** include Adobe Photoshop Express, Prisma, VSCO, Snapseed, Retrica, B612, SNOW, FaceApp, BeautyPlus, and LutinLens (the category leaders).
 
-
-**Examples** include Adobe Photoshop Camera, Prisma, VSCO, Snapseed, Retrica, B612, SNOW, FaceApp, BeautyPlus, and LutinLens (the category leaders).
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, avoiding subscription fees, and controlling the image processing pipeline. The open-source mobile camera landscape is sparse compared to desktop, but **LutinLens** (AI-driven camera with GPU-accelerated LUT rendering) and **Magic Mirror** (local AI face swap) demonstrate what's possible when processing stays on-device, while **ImageToolbox** provides a comprehensive open-source image editing toolkit for Android.
-
-
+**Open-source emphasis**: This section is heavily expanded with active projects for self-hosting, avoiding subscription fees, and controlling the image processing pipeline. The open-source mobile camera and filter ecosystem features robust libraries like **GPUImage**, **android-gpuimage**, **CameraView**, and **PhotoEditor**, alongside advanced standalone toolkits like **ImageToolbox**, **Harbeth**, and on-device neural pipelines like **LutinLens** and **Magic Mirror**.
 
 Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
 
-
-
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global mobile photo editing and camera filter app sector represents a multi-billion dollar market estimated at approximately $1.5B to $2.5B+ annually, growing at a CAGR of ~8–12% fueled by mobile-first creator culture, computational photography, and on-device generative AI. The industry is **highly fragmented** with low barriers to entry and rapid viral feature replication across hundreds of specialized indie studios and regional leaders (e.g., Meitu, SNOW, VSCO), while mega-cap platform ecosystems (Alphabet/Google, Adobe) coexist with dedicated category players rather than forming a winner-take-all monopoly.
 
 ## SaaS/Hosted Platforms
 
-
-
-| Product | Description | Pricing | Free Tier Limit |
-
+| Product | Company Scale (Revenue / Valuation) | Pricing | Free Tier Limit |
 | :--- | :--- | :--- | :--- |
-
-| **[Adobe Photoshop Camera](https://www.adobe.com/products/photoshop-camera.html)** | AI-powered camera app using Adobe Sensei for scene recognition and real-time lens effects. | **Free** (no paid tier reported in current sources) . | **Fully free**: 100+ lens effects, auto-tone, portrait controls, content-aware recommendations . |
-
-| **[Prisma](https://prisma-ai.com/)** | Neural network art filter app transforming photos into painting-style images. | **Free** with in-app purchases. **Premium** subscriptions: Weekly €1.99, Monthly €5.49–€7.99, Yearly €19.99–€39.99, Unlimited €29.99 . | **Free tier**: Basic filters. **3-day free trial** for Premium before subscription . |
-
-| **[VSCO](https://vsco.co/)** | Photography app with presets, advanced editing, and community features. | **Free Starter** tier. **Pro** and **One** paid memberships for advanced features . | **Starter (free)**: 1 saved Recipe, basic editing, 50 live presets in VSCO Capture, 10 GB gallery storage, 100 one-time AI credits, basic site . |
-
-| **[Snapseed](https://snapseed.online/)** | Google's professional photo editor with 30+ tools and film simulations. | **Free** (no subscriptions, no ads, no watermarks) . | **Fully free**: All 30+ pro tools, RAW support, batch editing, smart masking, film filters, camera with real-time effects . |
-
-| **[Retrica](https://retrica.me/)** | Digicam filter camera recreating Y2K CCD and 2000s point-and-shoot looks. | **Free** with **Retrica Pro** subscription: Weekly $5.99, Monthly $12.99, Yearly $59.99 . | **Free**: 260+ of 388 presets, watermark-free saves, photo/video capture . |
-
-| **[B612](https://b612.com/)** | All-in-one camera and video editor with real-time filters, AR makeup, and beauty tools. | **Free** with in-app purchases (pricing not specified in search results). | **Free**: Real-time filters, AR effects, Smart Beauty, custom filter creation, basic editing tools . |
-
-| **[SNOW](https://snow.me/)** | Camera app with AI profile, beauty effects, and AR filters used by 200M+ people. | **SNOW VIP**: **$6.99/month** (regional pricing varies; €7.99/month, €44.99/year in EU) . | **Free**: Core camera functionality without VIP subscription . |
-
-| **[FaceApp](https://faceapp.com/)** | AI face editor for transformations, aging, gender swap, and enhancement. | **Free** with **FaceApp PRO** in-app purchases (regional pricing varies widely) . | **Free**: All features available for creating and sharing on social media . |
-
-| **[BeautyPlus](https://www.beautyplus.com/)** | AI photo enhancer with beauty retouching, object removal, and image generation. | **Free** with **Pro** and **Max** paid tiers (monthly credits system) . | **Free**: Basic AI features with limitations, watermarked exports . |
-
-| **[Afterlight](https://afterlight.co/)** | Film-inspired photo editor with 300+ filters, textures, and advanced tools. | **Free** with **PRO**: **$3.99/month** or **$23.99/year** (7-day free trial) . | **Free**: Basic editing tools. PRO unlocks 300+ filters, textures, advanced tools, and all frames . |
-
-
+| **[Snapseed](https://snapseed.online/)** | **Alphabet (Google)**: ~$402.8B revenue (FY2025) / ~$2.2T+ market cap | **Free** ($0/month forever) | **Fully free forever**: All 30+ pro editing tools, RAW DNG support, selective filter brushes, curves, and smart masking with zero subscriptions, ads, or export limits. |
+| **[Adobe Photoshop Express](https://www.adobe.com/products/photoshop-express.html)** | **Adobe**: ~$23.8B revenue (FY2025) / ~$200B+ market cap | **Premium**: **$9.99/month** or **$34.99/year** | **Free forever plan**: Core editing tools, basic filters, red-eye removal, and standard collage templates; 3-day or 7-day free trial for Premium. |
+| **[SNOW](https://snow.me/)** | **Naver (SNOW Corp)**: ~$9.0B parent revenue (FY2025) / subsidiary | **SNOW VIP**: **$6.99/month** or **$39.99/year** | **Free forever plan**: Standard camera, daily beauty adjustment tools, AR stickers, and manual facial retouching without mandatory watermarks; AI Profile & HD modes locked to VIP. |
+| **[BeautyPlus](https://www.beautyplus.com/)** | **Meitu, Inc.**: ~$300M+ revenue (SEHK: 1357) / ~$1.5B+ valuation | **Pro**: **$8.99/month** or **$49.99/year** | **Free forever plan**: Basic retouching tools and standard filters; exports carry BeautyPlus watermark and premium AI generation features require credits. 7-day free trial available for Pro. |
+| **[VSCO](https://vsco.co/)** | **Visual Supply Co.**: ~$40M–$50M annual revenue / ~$550M valuation | **Plus**: **$7.99/month** ($29.99/year); **Pro**: **$12.99/month** ($59.99/year) | **Free Starter plan forever**: 1 saved Recipe, standard editing tools, 50 live presets in VSCO Capture, 10 GB gallery storage, 100 one-time AI credits; 7-day free trial for Pro. |
+| **[FaceApp](https://faceapp.com/)** | **FaceApp (Wireless Lab)**: ~$50M–$80M annual revenue | **FaceApp PRO**: **$9.99/month** or **$49.99/year** | **Free forever plan**: Basic facial filters, fundamental smile and makeup tools; exported images include FaceApp corner watermark and advanced age/hair styling tools are locked. 3-day free trial offered in select regions. |
+| **[Prisma](https://prisma-ai.com/)** | **Prisma Labs**: ~$16M–$20M annual revenue | **Premium**: **$7.99/month** or **$29.99/year** | **Free forever plan**: Daily collection of standard art/neural filters with SD export; 3-day free trial unlocks HD resolution and 500+ full neural style library before billing. |
+| **[Retrica](https://retrica.me/)** | **Retrica Inc.**: ~$5.9M venture funding / ~$2M–$5M estimated revenue | **Retrica Pro**: **$5.99/month** or **$59.99/year** | **Free forever plan**: 260+ vintage/CCD presets, photo/video capture, watermark-free exports; Pro unlocks 120+ exclusive digicam effects and premium grain controls. |
+| **[Afterlight](https://afterlight.co/)** | **Afterlight Collective**: ~$600K–$1M estimated annual revenue (indie) | **PRO**: **$3.99/month** or **$23.99/year** (or $39.99 lifetime) | **Free forever plan**: Basic exposure/color adjustments and standard filter presets; 7-day free trial unlocks 300+ film filters, light leak overlays, and custom curve tools. |
 
 ## Open-Source GitHub Projects
 
+Curated open-source camera apps, computational photography frameworks, and mobile image processing toolkits sorted by GitHub star count (descending).
 
+- **[GPUImage (iOS)](https://github.com/BradLarson/GPUImage)** [![GitHub Stars](https://img.shields.io/github/stars/BradLarson/GPUImage?style=social&color=white)](https://github.com/BradLarson/GPUImage/stargazers)  
+  **The benchmark GPU-accelerated camera framework.** An open-source iOS framework for GPU-based image and live video processing using OpenGL ES shaders, providing real-time camera filter pipelines, custom shaders, and color adjustments with maximum throughput.
 
-- **[LutinLens](https://github.com/KirisameLonnet/LutinLens)** [![GitHub Stars](https://img.shields.io/github/stars/KirisameLonnet/LutinLens?style=social&color=white)](https://github.com/KirisameLonnet/LutinLens/stargazers)  
+- **[ImageToolbox](https://github.com/T8RIN/ImageToolbox)** [![GitHub Stars](https://img.shields.io/github/stars/T8RIN/ImageToolbox?style=social&color=white)](https://github.com/T8RIN/ImageToolbox/stargazers)  
+  **The comprehensive open-source image editing toolkit for Android.** Built with Jetpack Compose and Kotlin, featuring over 200+ filters and effects, color matrix operations, multiple dithering algorithms (Floyd-Steinberg, Atkinson, Sierra), bilateral/Gaussian blurs, glitch effects, distortion filters, and film simulations.
 
-  **The AI-driven camera with GPU-accelerated LUT rendering.** Built with **Flutter** for cross-platform UI, optimized for Android with iOS support . **Core innovation**: GPU-accelerated GLSL shaders for YUV-to-ARGB conversion and trilinear interpolation, supporting **.cube LUT files** at ~30fps on Snapdragon 8 Gen 2 . **AI features**: multi-agent composition analysis via NVIDIA NeMo Agent Toolkit + MCP protocol, providing real-time framing suggestions and LUT recommendations based on scene recognition (powered by Qwen models via Alibaba Cloud) . **Caveat**: requires a backend server (LutinServer) for AI features; the camera core works without it. Best for developers wanting a technically ambitious, AI-assisted camera with real-time LUT rendering on Android.
+- **[android-gpuimage](https://github.com/wasabeef/android-gpuimage)** [![GitHub Stars](https://img.shields.io/github/stars/wasabeef/android-gpuimage?style=social&color=white)](https://github.com/wasabeef/android-gpuimage/stargazers)  
+  **Android real-time GPU image and camera filter library.** An Android port of Brad Larson's GPUImage based on OpenGL ES 2.0 shaders, offering instant live-camera viewfinder filters, custom GLSL filter chains, and blend modes without CPU bottlenecking.
 
+- **[CameraView](https://github.com/natario1/CameraView)** [![GitHub Stars](https://img.shields.io/github/stars/natario1/CameraView?style=social&color=white)](https://github.com/natario1/CameraView/stargazers)  
+  **High-level camera library for Android.** Provides a robust, easy-to-integrate camera engine supporting real-time filter integration, frame processing, gestures, continuous autofocus, HDR, video stabilization, and RAW capture.
 
+- **[PhotoEditor](https://github.com/burhanrashid52/PhotoEditor)** [![GitHub Stars](https://img.shields.io/github/stars/burhanrashid52/PhotoEditor?style=social&color=white)](https://github.com/burhanrashid52/PhotoEditor/stargazers)  
+  **A powerful Android photo editing library.** Enables fast integration of image editing capabilities including custom filters, brush drawings, sticker overlays, text additions, and crop transformations for mobile camera apps.
+
+- **[CameraFilter](https://github.com/nekocode/CameraFilter)** [![GitHub Stars](https://img.shields.io/github/stars/nekocode/CameraFilter?style=social&color=white)](https://github.com/nekocode/CameraFilter/stargazers)  
+  **Realtime camera filters on Android with OpenGL.** An Android implementation leveraging OpenGL ES shaders to demonstrate live camera feed filtering including edge detection, ascii art, sketch, polygonization, and color mapping effects.
+
+- **[android-gpuimage-plus](https://github.com/wysaid/android-gpuimage-plus)** [![GitHub Stars](https://img.shields.io/github/stars/wysaid/android-gpuimage-plus?style=social&color=white)](https://github.com/wysaid/android-gpuimage-plus/stargazers)  
+  **High-performance C++ OpenGL camera filter engine for Android.** Features real-time camera preview rendering, 40+ artistic photo/video filters, facial beauty filters, and custom color lookup table (LUT) support written in native C++.
+
+- **[Harbeth](https://github.com/yangKJ/Harbeth)** [![GitHub Stars](https://img.shields.io/github/stars/yangKJ/Harbeth?style=social&color=white)](https://github.com/yangKJ/Harbeth/stargazers)  
+  **High-performance GPU image and camera filter framework based on Apple Metal.** Cross-platform for iOS and macOS, featuring 100+ GPU-accelerated Metal filters, real-time camera video processing, lookup tables (LUTs), MPS support, and visual effects.
+
+- **[Libre Camera](https://github.com/iakdis/librecamera)** [![GitHub Stars](https://img.shields.io/github/stars/iakdis/librecamera?style=social&color=white)](https://github.com/iakdis/librecamera/stargazers)  
+  **Privacy-first open-source Android camera app.** Built with Flutter, stripping metadata/EXIF by default, with no trackers, no ads, full manual focus/exposure controls, and local-only processing.
 
 - **[Magic Mirror](https://github.com/keggin-CHN/Magic-Mirror)** [![GitHub Stars](https://img.shields.io/github/stars/keggin-CHN/Magic-Mirror?style=social&color=white)](https://github.com/keggin-CHN/Magic-Mirror/stargazers)  
+  **Local AI face swap and manipulation application.** Cross-platform (Windows, macOS, Linux, Web, Android) with all inference executed locally via ONNX Runtime / CUDA / DirectML without external server communication.
 
-  **The local AI face swap app.** Cross-platform (Windows, macOS, Linux, Web, Android) with **all processing done locally—no image uploads to third-party services** . **Features**: single/multi-face swapping, video face swap with audio preservation, multi-face source binding, GPU acceleration (CUDA/DirectML), Web mode with JWT authentication, and multi-language support . **Tech stack**: Node.js frontend, Python inference backend, Rust Tauri desktop shell, Android with MediaCodec . **Not a camera filter app per se**—it's a face-swapping tool—but relevant for on-device AI image manipulation. Best for developers wanting a privacy-first, local face-swap implementation to study or extend.
-
-
-
-- **[ImageToolbox](https://github.com/T8RIN/ImageToolbox)** [![GitHub Stars](https://img.shields.io/github/stars/T8RIN/ImageToolbox?style=social&color=white)](https://github.com/T8RIN/ImageToolbox/tree/3.8.0)  
-
-  **The comprehensive open-source image editing toolkit for Android.** Version 3.8.0 includes an extensive filter library: **200+ filters and effects** including color matrix operations, dithering algorithms (Floyd-Steinberg, Atkinson, Burkes, Stucki, Sierra variants), blur effects (Gaussian, bilateral, motion, radial, zoom), glitch effects, distortion filters, and film simulations . **Not AI-powered** in the ML sense—it's a traditional image processing toolkit—but it's the most complete open-source Android image editor available. Best for Android users wanting a free, powerful, open-source alternative to subscription-based editors without AI dependencies.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **LibreCamera** — The open-source camera core that LutinLens is built upon. Best for developers wanting a clean Android camera foundation without AI features.
-
-- **OpenCamera** — The long-standing open-source Android camera app with manual controls, RAW support, and no ads. Best for users wanting a traditional, privacy-respecting camera without AI gimmicks.
-
-
+- **[LutinLens](https://github.com/KirisameLonnet/LutinLens)** [![GitHub Stars](https://img.shields.io/github/stars/KirisameLonnet/LutinLens?style=social&color=white)](https://github.com/KirisameLonnet/LutinLens/stargazers)  
+  **AI-driven camera with GPU-accelerated LUT rendering.** Built with Flutter for Android and iOS, featuring GPU GLSL shaders for 3D .cube LUT color grading at ~30fps alongside LLM/agent-assisted composition suggestions.
 
 ## How to Contribute
 
-
-
 1. Fork the repo.
-
 2. Add/edit entries in `README.md` (follow existing format).
-
 3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
 4. Submit PR with a short explanation.
-
-
 
 Star the repo if you find it useful!
 
-
-
 ## Disclaimer
 
-
-
 - This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- **Free tiers vary dramatically**: Snapseed is genuinely free with no strings attached ; Adobe Photoshop Camera is also fully free ; VSCO and Retrica offer usable free tiers with optional subscriptions ; FaceApp and BeautyPlus gate features behind PRO/max tiers with credit systems .
-
+- **Free tiers vary dramatically**: Snapseed is genuinely free with no strings attached; Adobe Photoshop Express offers standard free tools with a paid subscription; VSCO and Retrica offer usable free tiers with optional subscriptions; FaceApp and BeautyPlus gate features behind PRO/max tiers with credit systems.
 - **"AI" claims require scrutiny**: Some apps use genuine ML (Prisma's neural style transfer, Adobe Sensei, LutinLens's composition analysis) while others apply traditional filters labeled as AI. Verify whether the intelligence is real or marketing.
-
-- **Open-source mobile camera apps are rare**: LutinLens and Magic Mirror are technically impressive but niche projects, not mature consumer alternatives. ImageToolbox is comprehensive but not AI-powered. Expect to use commercial apps for polished AI camera experiences.
-
 - **Privacy matters with face-based apps**: FaceApp and similar tools process biometric data. Open-source alternatives like Magic Mirror explicitly keep processing local—verify privacy policies before uploading personal photos to any service.
-
-
 
 ---
 
-
-
 **Made for mobile photographers, developers building camera apps, and privacy-conscious users wanting on-device AI image processing.**  
-
 Let's make AI mobile camera and filter apps more open, privacy-respecting, and on-device.
