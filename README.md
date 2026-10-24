@@ -80,39 +80,39 @@ A comprehensive comparison of top commercial AI camera filter apps, categorized 
 
 ## 💻 Open-Source Camera & Filter Projects
 
-Curated open-source camera apps, computational photography frameworks, and mobile image processing toolkits sorted by GitHub star count (descending).
+Curated open-source camera apps, computational photography frameworks, and mobile image processing toolkits sorted by GitHub Stars_Count (descending).
 
-- **[GPUImage (iOS)](https://github.com/BradLarson/GPUImage)** [![GitHub Stars](https://img.shields.io/github/stars/BradLarson/GPUImage?style=social&color=white)](https://github.com/BradLarson/GPUImage/stargazers)  
+- **[GPUImage (iOS)](https://github.com/BradLarson/GPUImage)** [![GitHub_Stars](https://img.shields.io/github/stars/BradLarson/GPUImage?style=social&color=white)](https://github.com/BradLarson/GPUImage/stargazers)  
   🌟 **The benchmark GPU-accelerated camera framework.** An open-source iOS framework for GPU-based image and live video processing using OpenGL ES shaders, providing real-time camera filter pipelines, custom shaders, and color adjustments with maximum throughput.
 
-- **[ImageToolbox](https://github.com/T8RIN/ImageToolbox)** [![GitHub Stars](https://img.shields.io/github/stars/T8RIN/ImageToolbox?style=social&color=white)](https://github.com/T8RIN/ImageToolbox/stargazers)  
+- **[ImageToolbox](https://github.com/T8RIN/ImageToolbox)** [![GitHub_Stars](https://img.shields.io/github/stars/T8RIN/ImageToolbox?style=social&color=white)](https://github.com/T8RIN/ImageToolbox/stargazers)  
   🎨 **The comprehensive open-source image editing toolkit for Android.** Built with Jetpack Compose and Kotlin, featuring over 200+ filters and effects, color matrix operations, multiple dithering algorithms (Floyd-Steinberg, Atkinson, Sierra), bilateral/Gaussian blurs, glitch effects, distortion filters, and film simulations.
 
-- **[android-gpuimage](https://github.com/wasabeef/android-gpuimage)** [![GitHub Stars](https://img.shields.io/github/stars/wasabeef/android-gpuimage?style=social&color=white)](https://github.com/wasabeef/android-gpuimage/stargazers)  
+- **[android-gpuimage](https://github.com/wasabeef/android-gpuimage)** [![GitHub_Stars](https://img.shields.io/github/stars/wasabeef/android-gpuimage?style=social&color=white)](https://github.com/wasabeef/android-gpuimage/stargazers)  
   ⚡ **Android real-time GPU image and camera filter library.** An Android port of Brad Larson's GPUImage based on OpenGL ES 2.0 shaders, offering instant live-camera viewfinder filters, custom GLSL filter chains, and blend modes without CPU bottlenecking.
 
-- **[CameraView](https://github.com/natario1/CameraView)** [![GitHub Stars](https://img.shields.io/github/stars/natario1/CameraView?style=social&color=white)](https://github.com/natario1/CameraView/stargazers)  
+- **[CameraView](https://github.com/natario1/CameraView)** [![GitHub_Stars](https://img.shields.io/github/stars/natario1/CameraView?style=social&color=white)](https://github.com/natario1/CameraView/stargazers)  
   📹 **High-level camera engine for Android.** Provides a robust, easy-to-integrate camera engine supporting real-time filter integration, frame processing, gestures, continuous autofocus, HDR, video stabilization, and RAW capture.
 
-- **[PhotoEditor](https://github.com/burhanrashid52/PhotoEditor)** [![GitHub Stars](https://img.shields.io/github/stars/burhanrashid52/PhotoEditor?style=social&color=white)](https://github.com/burhanrashid52/PhotoEditor/stargazers)  
+- **[PhotoEditor](https://github.com/burhanrashid52/PhotoEditor)** [![GitHub_Stars](https://img.shields.io/github/stars/burhanrashid52/PhotoEditor?style=social&color=white)](https://github.com/burhanrashid52/PhotoEditor/stargazers)  
   🖌️ **A powerful Android photo editing library.** Enables fast integration of image editing capabilities including custom filters, brush drawings, sticker overlays, text additions, and crop transformations for mobile camera apps.
 
-- **[CameraFilter](https://github.com/nekocode/CameraFilter)** [![GitHub Stars](https://img.shields.io/github/stars/nekocode/CameraFilter?style=social&color=white)](https://github.com/nekocode/CameraFilter/stargazers)  
+- **[CameraFilter](https://github.com/nekocode/CameraFilter)** [![GitHub_Stars](https://img.shields.io/github/stars/nekocode/CameraFilter?style=social&color=white)](https://github.com/nekocode/CameraFilter/stargazers)  
   🔮 **Realtime camera filters on Android with OpenGL.** An Android implementation leveraging OpenGL ES shaders to demonstrate live camera feed filtering including edge detection, ascii art, sketch, polygonization, and color mapping effects.
 
-- **[android-gpuimage-plus](https://github.com/wysaid/android-gpuimage-plus)** [![GitHub Stars](https://img.shields.io/github/stars/wysaid/android-gpuimage-plus?style=social&color=white)](https://github.com/wysaid/android-gpuimage-plus/stargazers)  
+- **[android-gpuimage-plus](https://github.com/wysaid/android-gpuimage-plus)** [![GitHub_Stars](https://img.shields.io/github/stars/wysaid/android-gpuimage-plus?style=social&color=white)](https://github.com/wysaid/android-gpuimage-plus/stargazers)  
   🚀 **High-performance C++ OpenGL camera filter engine for Android.** Features real-time camera preview rendering, 40+ artistic photo/video filters, facial beauty filters, and custom color lookup table (LUT) support written in native C++.
 
-- **[Harbeth](https://github.com/yangKJ/Harbeth)** [![GitHub Stars](https://img.shields.io/github/stars/yangKJ/Harbeth?style=social&color=white)](https://github.com/yangKJ/Harbeth/stargazers)  
+- **[Harbeth](https://github.com/yangKJ/Harbeth)** [![GitHub_Stars](https://img.shields.io/github/stars/yangKJ/Harbeth?style=social&color=white)](https://github.com/yangKJ/Harbeth/stargazers)  
   🍏 **High-performance GPU image and camera filter framework based on Apple Metal.** Cross-platform for iOS and macOS, featuring 100+ GPU-accelerated Metal filters, real-time camera video processing, lookup tables (LUTs), MPS support, and visual effects.
 
-- **[Libre Camera](https://github.com/iakdis/librecamera)** [![GitHub Stars](https://img.shields.io/github/stars/iakdis/librecamera?style=social&color=white)](https://github.com/iakdis/librecamera/stargazers)  
+- **[Libre Camera](https://github.com/iakdis/librecamera)** [![GitHub_Stars](https://img.shields.io/github/stars/iakdis/librecamera?style=social&color=white)](https://github.com/iakdis/librecamera/stargazers)  
   🔒 **Privacy-first open-source Android camera app.** Built with Flutter, stripping metadata/EXIF by default, with no trackers, no ads, full manual focus/exposure controls, and local-only processing.
 
-- **[Magic Mirror](https://github.com/keggin-CHN/Magic-Mirror)** [![GitHub Stars](https://img.shields.io/github/stars/keggin-CHN/Magic-Mirror?style=social&color=white)](https://github.com/keggin-CHN/Magic-Mirror/stargazers)  
+- **[Magic Mirror](https://github.com/keggin-CHN/Magic-Mirror)** [![GitHub_Stars](https://img.shields.io/github/stars/keggin-CHN/Magic-Mirror?style=social&color=white)](https://github.com/keggin-CHN/Magic-Mirror/stargazers)  
   🪞 **Local AI face swap and manipulation application.** Cross-platform (Windows, macOS, Linux, Web, Android) with all inference executed locally via ONNX Runtime / CUDA / DirectML without external server communication.
 
-- **[LutinLens](https://github.com/KirisameLonnet/LutinLens)** [![GitHub Stars](https://img.shields.io/github/stars/KirisameLonnet/LutinLens?style=social&color=white)](https://github.com/KirisameLonnet/LutinLens/stargazers)  
+- **[LutinLens](https://github.com/KirisameLonnet/LutinLens)** [![GitHub_Stars](https://img.shields.io/github/stars/KirisameLonnet/LutinLens?style=social&color=white)](https://github.com/KirisameLonnet/LutinLens/stargazers)  
   🧠 **AI-driven camera with GPU-accelerated LUT rendering.** Built with Flutter for Android and iOS, featuring GPU GLSL shaders for 3D .cube LUT color grading at ~30fps alongside LLM/agent-assisted composition suggestions.
 
 ---
@@ -123,7 +123,7 @@ Contributions are warmly welcomed! Help make this the most up-to-date and compre
 
 1. 🍴 Fork the repository.
 2. 🌿 Create a feature branch: `git checkout -b feature/new-camera-app`.
-3. 📝 Add or edit entries in `README.md` (maintain exact table columns, pricing specifics, and star badge order).
+3. 📝 Add or edit entries in `README.md` (maintain exact table columns, pricing specifics, and Stars_Badge order).
 4. ✨ Commit your changes: `git commit -m "Add new on-device AI camera project"`.
 5. 🚀 Push to branch and open a Pull Request.
 
